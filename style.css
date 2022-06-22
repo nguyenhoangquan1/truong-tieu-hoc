@@ -1,0 +1,140 @@
+
+.menu{
+    width: 1350px ;
+    height: 50px;
+    background-color: rgb(255, 0, 234);
+   float: left;
+   
+   margin-top: -4px;
+ 
+}
+.menu li{
+    list-style: none;
+ 
+}
+.menu a{
+   text-decoration: none;
+   color: rgb(243, 239, 239);
+}
+.menu > li{
+    list-style: none;
+ padding: 20px 35px;
+    float: left;
+    position:relative;
+    
+}
+.menu a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu li:hover >a{
+    background-color: rgb(178, 233, 27);
+    padding: 20px 20px;
+    color: rgb(0, 204, 255);
+    overflow: hidden;
+}
+ .sub li:hover {
+    background-color: rgb(178, 233, 27);
+    color: rgb(0, 204, 255);
+    padding: 10px 30px;
+}
+
+.menu li:hover .sub {
+
+    opacity:1;
+    z-index: 1;
+    
+}
+.sub {
+    width: 80px;
+    padding: 20px 20px;
+    position:absolute;
+    z-index:1;
+    opacity:0;
+    transition: linear 0.3s;
+    background-color: rgb(255, 0, 234);
+  overflow: hidden;
+}
+.sub li{
+    padding: 10px 10px;
+}
+
+.trai {
+    width: 200px;
+    height:  400px;
+    background: rgb(202, 85, 85);
+  float: left;
+  overflow: hidden;
+ padding: 0px 5px;
+}
+h1{
+    font-size: 15px;
+}
+.giua{
+    width: 920px;
+    height:  400px;
+    background-color: red;
+    overflow: hidden;
+    float: left;
+    
+}
+
+.cuoi {
+    width: 200px;
+    height:  400px;
+    background: rgb(14, 235, 25);
+    float: left;
+    overflow: hidden;
+}
+
+
+/*
+<input type="text" placeholder="nhập từ khóa">
+<button>tìm kiếm</button>
+
+<h1>THÔNG BÁO MỚI</h1>
+<h1>Thõng bão nghĩ lẻ 30 4 vãi 1/5/2018</h1>
+<h1>Lịch trực tet nguyên đán 201S</h1>
+<h1>Thông bão lịch sinh hoạt CLBị Tiếng anh cụm 2</h1>
+<h1>Thòng báo về việc đưa đón học* sinh</h1>
+<h1>Công ván tảng cường các giãi: pháp công tác
+     nuôi dường, châm; sóc và bão vệ sức khõe 
+     cho họệ sinh Tiêu học.</h1>
+
+     <h1>Kỷ niệm ngày nhà giáo Việt Nam 20/11/2018</h1>
+<h1>Con người, chác hãn ai cùng từng một lằn được cáp sách đến trường, 
+    ai cùng cô một ngưỡi thây, người cô kinh mên của lõng nũnh đẻ thương.
+     đê nhữ về. Ngày 20/11 lã cơ hội đẻ mọi người bày tò tình câm, lõng 
+     biểt ơn sâu sảc đên thay cò. Vào dịp này, rất nhiêu trường đà tô chức cuộc 
+    thi như thi đua học tôt, hoa điêm 10, vân nghệ, viêt bãi vê thây,
+     cô giáo nhâm bây tò lòng biêt</h1>
+<h1>Nhân ngày này, chiêu ngây 20/1Ỉ/201S tại khuôn viên trường, trường tiêu học
+     Lẽ Lơi đà long trong tô chức Lẻ kỳ niêm ngày nhà giáo Việt Nam 20 11 . 
+     Buôi lẻ là dtp ôn lại truyền thống, Itch sữ đnags tự hào cùa nhà giáo Việt Nam,
+      nhẩm tòn vinh, tri ân nhừng giá tri truyẽn thông tòt đẹp cũa nhả giáo Việt Nam "Tận tụy,
+     tận tinh vì sự nghiệp giáo dục". Cùng VÓI đó, đây cùng là dtp đê ghi nhận nhừng két 
+     thảnh tích đà đat được cũa các giáo viên trường tiêu học Lê Lơi. 
+     Sau đây lã một sỏ hĩnh ảnh cùa hoạt động chào mừng 20 11</h1>
+     <img src="images (2).jpg" alt="" width="300px">
+     <img src="images (2).jpg" alt="" width="300px">
+
+
+     <ul style="list-style: none;"><li>
+<img src="iconbantru.jpg" alt=""  width="100px"></li>
+<li>
+<img src="iconthongbao.jpg" alt=""  width="100px"></li>
+<li>
+<img src="iconvanban.jpg" alt=""  width="100px"></li>
+<li >
+<img src="lichtuan.jpg" alt=""  width="100px"></li>
+</ul>
+
+
+ 
+
+
+
+
+
+
+
